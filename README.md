@@ -8,4 +8,4 @@ admin
 asdfasdf
 
 # How to change credentials
-```cd auth && rm registry.password && htpasswd -Bc registry.password somenewuser
+```cd auth && rm registry.password && htpasswd -Bc registry.password somenewuser```
