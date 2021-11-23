@@ -5,7 +5,7 @@ a quick test for creating a container registry with auth
 
 add this line to Docker's daemon.json file and restart the Docker Daemon:
 
-    "insecure-registries":["192.168.99.100:5000"]
+    "insecure-registries":["myip:5005"]
 
 then run the registry
 
