@@ -3,6 +3,12 @@ a quick test for creating a container registry with auth
 
 # How to start
 
+add this line to Docker's daemon.json file and restart the Docker Daemon:
+
+    "insecure-registries":["192.168.99.100:5000"]
+
+then run the registry
+
     cd data 
     docker-compose up
 
